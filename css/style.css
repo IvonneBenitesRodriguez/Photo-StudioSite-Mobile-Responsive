@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Hollato';
+    src: url(../fonts/HollatoPersonalUse/Hollato.ttf);
+}
+@font-face{
+    font-family: 'ayrton-pight';
+    src: url(../fonts/ayrton-pight/Ayrton\ Pight.ttf);
+}
+body{
+    background-color: white;
+    height: 600px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+header a{
+    padding-right: 45%;
+}
+header img{
+margin-bottom: 10%;
+margin-top: 15%;
+}
+menu{
+    display: flex;
+    padding-left: 6%;
+}
+menu li{
+    margin-right: 50px;
+    list-style: none;
+}
+menu li a{
+    text-decoration: none;
+    list-style: none;
+    color:beige;
+    font-size: 44px;
+    font-family: 'ayrton-pight', sans-serif;
+}
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+aside{
+    padding-right: 10%;
+}
+aside h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: 'Hollato', sans-serif;
+}
+aside p{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: beige;
+    border: 2px solid bisque;
+    font-size: 16px;
+}
+button a{
+    text-decoration: none;
+    color: #393e46;
+}
+.second-section h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'ayrton-pight',sans-serif;
+    font-size: 60px;
+    
+
+}
+.boxes-secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.boxes-secondSection img{
+    border-radius: 10px;
+    border: 2px solid bisque;
+}
+.boxes-secondSection p{
+    text-align: center;
+}
+.third-section{
+    background-color: bisque;
+    padding: 5%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+.third-section blockquote em{
+    font-size: 24px;
+}
+.third-section cite{
+    font-size: 20px;
+}
+.third-section blockquote{
+    margin-bottom: 20px;
+}
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    background-color: beige;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+.sign-button{
+    margin-left: 23%;
+}
+.sign-button a{
+    text-decoration: none;
+}
+footer .main-footer{
+    background-color: black;
+    color: beige;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer-first-part{
+  width: 20%;
+}
+.footer-first-part h2{
+    text-align: center;
+}
+.footer-first-part p{
+    margin-top: 20px;
+}
+.footer-second-part{
+    width: 20%;
+    padding-left: 5%;
+}
+.footer-second-part ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-third-part{
+    width: 20%;
+    padding-right: 4%;
+}
+.footer-third-part h2{
+    text-align: center;
+}
+.footer-third-part ul{
+    list-style: none;
+    margin-top:20px;
+    text-align: center;
+}
+.footer-third-part ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.footer-fourth-part{
+    width: 20%;
+    padding-left: 1%;
+}
+.footer-fourth-part h2{
+    margin-bottom:20px;
+}
+.footer-fourth-part figure{
+    display: flex;
+    align-items: center;
+}
+.footer-fourth-part figcaption{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-social-networks{
+    background-color: #393e46;
+    padding: 20px;
+}
+.footer-social-networks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:  center;
+}
+.social-networks a{
+margin-right: 40px;
+}
+.footer-social-networks p{
+    color: beige;
+}
+hr{
+    border: 2px solid #393e46;
+}
+/* Media Queries: Mobile : Iphone */
+@media(max-width: 360px){
+    header{
+      background-color: #a393eb;
+      display: block;
+    }
+    header a{
+        padding-right: 0px;
+    }
+    header img{
+        border-radius: 10px;
+        margin-left: 12%;
+    }
+    .first-part{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    menu{
+        display: block;
+        padding-left: 3%;
+        
+    }
+    menu li{
+        margin-right: 0px;
+    }
+    menu li a{
+        color: black;
+        margin-left: 24%;
+    }
+    .first-section{
+        display: block;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .first-section .spanishModel img{
+        width: 250px;
+    }
+    aside{
+        padding-right:0px;
+        margin-bottom: 8%;
+    }
+    aside h1{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .second-section h2{
+        margin-bottom: 4%;
+    }
+    .boxes-secondSection{
+        display: block;
+        text-align: center;
+    }
+    figcaption p{
+        margin-bottom: 4%;
+    }
+    .third-section{
+        padding-bottom: 10%;
+    }
+    .third-section blockquote {
+        margin-top: 7%;
+    }
+    .third-section blockquote em{
+        font-size: 18px;
+    }
+    .third-section cite{
+        font-size:15px;
+    }
+    .fourth-section{
+        display: block;
+        margin-top: 10%;
+        margin-left:13%;
+        margin-right: 7%;
+        padding-bottom:4%;
+        padding-top: 4%;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-bottom: 6%;
+    }
+    .fourth-section button{
+        text-align: center;
+    }
+    .sign-text{
+        text-align: center;
+    }
+    .sign-text p{
+        margin-top: 7%;
+    }
+    .sign-button{
+        margin-top: 7%;
+    }
+    footer{
+        margin-top: 30px;
+    }
+   div.main-footer{
+         display: block;
+    }
+    footer.main-footer{
+        margin-top: 30px;
+    }
+    .footer-first-part{
+        text-align: center;
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 75%;
+        margin-bottom: 35px;
+    }
+    .footer-second-part{
+    width: 75%;
+    padding-left: 5%;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+}
+    .footer-third-part{
+    width: 75%;
+    padding-left: 5%;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+    }
+    .footer-fourth-part{
+        width: 75%;
+        padding-left: 5%;
+        text-align: center;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 35px;
+    }
+    .footer-social-networks{
+        display: block;
+        text-align: center;
+    }
+    .footer-social-networks p{
+        display: none;
+    }
+    .footer-social-networks.social-networks{
+        text-align: center;
+        margin-left: 40px;
+    }
+ }
+ /* Mobile Devices: Iphone11 */
+ @media(max-width: 414px){
+    header{
+        background-color: #a393eb;
+        display: block;
+      }
+      header a{
+        padding-right: 0px;
+    }
+    header img{
+        border-radius: 10px;
+        margin-left: 12%;
+    }
+    .first-part{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    menu{
+        display: block;
+        padding-left: 3%;
+        
+    }
+    menu li{
+        margin-right: 0px;
+    }
+    menu li a{
+        color: black;
+        margin-left: 24%;
+    }
+    .first-section{
+        display: block;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .first-section .spanishModel img{
+        width: 250px;
+    }
+    aside{
+        padding-right:0px;
+        margin-bottom: 8%;
+    }
+    aside h1{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .second-section h2{
+        margin-bottom: 4%;
+    }
+    .boxes-secondSection{
+        display: block;
+        text-align: center;
+    }
+    figcaption p{
+        margin-bottom: 4%;
+    }
+    .third-section{
+        padding-bottom: 10%;
+    }
+    .third-section blockquote {
+        margin-top: 7%;
+    }
+    .third-section blockquote em{
+        font-size: 18px;
+    }
+    .third-section cite{
+        font-size:15px;
+    }
+    .fourth-section{
+        display: block;
+        margin-top: 10%;
+        margin-left:13%;
+        margin-right: 7%;
+        padding-bottom:4%;
+        padding-top: 4%;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-bottom: 6%;
+    }
+    .fourth-section button{
+        text-align: center;
+    }
+    .sign-text{
+        text-align: center;
+    }
+    .sign-text p{
+        margin-top: 7%;
+    }
+    .sign-button{
+        margin-top: 7%;
+    }
+    footer{
+        margin-top: 30px;
+    }
+   div.main-footer{
+         display: block;
+    }
+    footer.main-footer{
+        margin-top: 30px;
+    }
+    .footer-first-part{
+        text-align: center;
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 75%;
+        margin-bottom: 35px;
+    }
+    .footer-second-part{
+    width: 75%;
+    padding-left: 5%;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+}
+    .footer-third-part{
+    width: 75%;
+    padding-left: 5%;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+    }
+    .footer-fourth-part{
+        width: 75%;
+        padding-left: 5%;
+        text-align: center;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 35px;
+    }
+    .footer-social-networks{
+        display: block;
+        text-align: center;
+    }
+    .footer-social-networks p{
+        display: none;
+    }
+    .footer-social-networks.social-networks{
+        text-align: center;
+        margin-left: 40px;
+    }
+ }
+ /* Media Queries: Ipad Devices */
+ @media(min-width: 768px)and (max-width:1024px){
+    header a{
+        padding-right:0px;
+    }
+    .spanishModel img{
+        width: 250px;
+    }
+    aside h1{
+        font-size: 30px;
+    }
+    aside{
+        padding-right: 0px;
+    }
+   .boxes-secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   }
+    .boxes-secondSection .notAppear{
+        display: none;
+    }
+    .sign-text h3 p{
+        text-align: center;
+    }
+    .sign-text p{
+        margin-left: 20px;
+    }
+ }
